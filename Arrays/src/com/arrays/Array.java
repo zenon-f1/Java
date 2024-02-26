@@ -1,8 +1,9 @@
 package com.arrays;
 
 import java.util.Scanner;
+import  java.util.Arrays;
 
-public class Arrays {
+public class Array {
     public static void main(String[] args){
         int age; // we can only store a single value
         // Declaration
@@ -50,6 +51,6 @@ public class Arrays {
             System.out.print(a+" "); // a represents element of the array
         }
         System.out.println();
-
+        System.out.println(Arrays.toString(array));
     }
 }
